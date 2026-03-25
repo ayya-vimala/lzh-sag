@@ -1,0 +1,98 @@
+// Changes in parallels.json
+
+// T 1548.25
+// T xxviii 679c22–680a27
+
+
+// AN 3,40
+
+// Should become t1548.24 and resembling
+
+// --------------------------------
+
+
+// T 1548.126
+// T xxviii 656b19–661a09
+
+
+// DA 21
+// DN 1
+// SHT Sutta 16
+// T 21
+// Up 3.050
+
+// Should become t1548.21
+// ----------------------------------------
+
+// Also check UV-KG listed in Chinese and should be Tibetan.
+
+    {
+        "parallels": [
+            "an3.40",
+            "t1548.25"
+        ]
+    },
+
+
+    {
+        "parallels": [
+            "dn1",
+            "da21",
+            "sht-sutta16",
+            "t21",
+            "up3.050",
+            "~sf41",
+            "~sf48",
+            "~t1548.126"
+        ]
+    },
+
+    {
+        "parallels": [
+            "t1548.126",
+            "~dn1",
+            "~da21",
+            "~sht-sutta16",
+            "~t21",
+            "~up3.050"
+        ]
+    },
+
+Should become:
+
+    {
+        "parallels": [
+            "an3.40",
+            "~t1548.24"
+        ]
+    },
+    {
+        "parallels": [
+            "~an3.40",
+            "t1548.24"
+        ]
+    },
+
+    {
+        "parallels": [
+            "dn1",
+            "da21",
+            "sht-sutta16",
+            "t21",
+            "up3.050",
+            "~sf41",
+            "~sf48",
+            "~t1548.21"
+        ]
+    },
+
+    {
+        "parallels": [
+            "t1548.21",
+            "~dn1",
+            "~da21",
+            "~sht-sutta16",
+            "~t21",
+            "~up3.050"
+        ]
+    },
